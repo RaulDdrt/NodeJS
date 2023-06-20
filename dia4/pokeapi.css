@@ -1,0 +1,109 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    background-image: url(/node/dia4/heartgold-soulsilver.png);
+}
+
+
+header{
+
+    width: 100%;
+    height: 60px;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+
+}
+
+section{
+
+    display: flex;
+    width: 100%;
+    height: 843px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+
+    width: 100%;
+    height: 60px;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.divheader1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 4px solid black;
+    width: 50%;
+    height: 60px;
+}
+
+.divheader2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 4px solid black;
+    width: 50%;
+    height: 60px;
+
+}
+
+.imgfooter{
+
+    border: 4px solid blue;
+    width: 50px;
+    height: 50px;
+    border-top: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+
+}
+
+input{
+
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+}
+
+button{
+
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+}
