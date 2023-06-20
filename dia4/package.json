@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "pnpm": "^8.6.3",
+    "pokedex-promise-v2": "^4.1.1"
+  }
+}

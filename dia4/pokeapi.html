@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pokeapi.css">
-    <title>Document</title>
+    <script src="../dia4/pokeapi.js"></script>
+    <title>Pokeapi</title>
 </head>
 
 <body>
@@ -12,26 +13,25 @@
 <header>
     
     <div class="divheader1">
-    <img class="imgfooter" src="https://i.pinimg.com/550x/19/8f/82/198f82f11f0d75bfdeafcb50c0447268.jpg" alt="">
-    <p>Pokeapi - Tu pokedex en forma de API Rest</p>
-    </div>
-
-    <div class="divheader2">
-    <p>Documentacion</p>
-    <p>Contacto</p>
+    <p><h1>Pokeapi - Tu pokedex en forma de API Rest</h1></p>
     </div>
 
 </header>
 
 <section>
-    <div>
+    
+    <div class="pokediv">
         <img src="https://i.pinimg.com/originals/46/74/30/467430c7966046066e2db60356547d86.png" alt="">
-        <input type="text" placeholder="Buscar Pokémon...">
-        <button>¡Te elijo a ti!</button>
+        <input id="inputPokemon" type="text" placeholder="Buscar Pokémon...">
+        <button onclick="buscarPokemon()">¡Te elijo a ti!</button>
     </div>
+
+    <div id="resultadoPokemon" class="pokediv"></div>
+
 </section>
 
-<footer>Abracadabra</footer>
+
+<footer><p>¡ Gracias a <a href="https://pokeapi.co/">Pokeapi.co !</a></p></footer>
     
 </body>
 
